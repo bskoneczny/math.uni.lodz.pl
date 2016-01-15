@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost:8080/" />
+<title>MaileNieZgadzajaSie</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">MaileNieZgadzajaSie</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/registrationform</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=firstName</td>
+	<td>Jan</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=lastName</td>
+	<td>Kowalski</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=email</td>
+	<td>jkowalski@gmail.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=repeatEmail</td>
+	<td>jkowalski224@gmail.com</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button.gwt-Button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=gwt-uid-22</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=gwt-uid-26</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=table.form-buttons &gt; tbody &gt; tr &gt; td &gt; button.gwt-Button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.GOFRIDJCBJ</td>
+	<td>We're sorry but your answer was incorrect.</td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
